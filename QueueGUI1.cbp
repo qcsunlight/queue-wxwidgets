@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="QueueGUI1" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/QueueGUI1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add option="-D__WXDEBUG__" />
+					<Add directory="C:/wxWidgets-3.0.2/lib/gcc_lib/mswud" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/wxWidgets-3.0.2/lib/gcc_lib/mswud" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxexpat.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxexpatd.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxjpeg.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxjpegd.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxmsw30ud.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxmsw30ud_gl.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxpng.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxpngd.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxregexu.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxregexud.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxscintilla.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxscintillad.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxtiff.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxtiffd.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxzlib.a" />
+					<Add library="../../../../wxWidgets-3.0.2/lib/gcc_dll/libwxzlibd.a" />
+					<Add directory="C:/wxWidgets-3.0.2/lib/gcc_lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add option="-Winvalid-pch" />
+			<Add option="-include wx_pch.h" />
+			<Add option="-DWX_PRECOMP" />
+			<Add option="-Wall" />
+			<Add directory="C:/wxWidgets-3.0.2/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/wxWidgets-3.0.2/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+			<Add library="libkernel32.a" />
+			<Add library="libuser32.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libwinspool.a" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libadvapi32.a" />
+			<Add library="libshell32.a" />
+			<Add library="libole32.a" />
+			<Add library="liboleaut32.a" />
+			<Add library="libuuid.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="libwsock32.a" />
+			<Add library="libodbc32.a" />
+		</Linker>
+		<Unit filename="QueueGUI1App.cpp" />
+		<Unit filename="QueueGUI1App.h" />
+		<Unit filename="QueueGUI1Main.cpp" />
+		<Unit filename="QueueGUI1Main.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wx_pch.h">
+			<Option compile="1" />
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="wxsmith/QueueGUI1frame.wxs" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="QueueGUI1App.cpp" main="QueueGUI1Frame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/QueueGUI1frame.wxs" src="QueueGUI1Main.cpp" hdr="QueueGUI1Main.h" fwddecl="0" i18n="1" name="QueueGUI1Frame" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
